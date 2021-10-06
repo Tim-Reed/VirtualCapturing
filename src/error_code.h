@@ -1,0 +1,13 @@
+#ifndef _ERROR_CODE_
+#define _ERROR_CODE_
+
+enum TRetCode {
+    SUCCESS,
+    INVALID_INPUT,
+    EXPECTED_VALUE,
+    NONE_EXPECTED_VALUE,
+    ALLOC_ERROR,
+    NOT_IMPLEMENTED,
+};
+
+#endif
